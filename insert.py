@@ -4,7 +4,7 @@ from config import config
 
 def insert_student():
     sql = '''   INSERT INTO students(stud_name, stud_email)
-                VALUES ('studenttest', 'studtest@test.com') RETURNING stud_id;
+                VALUES ('studenttest2', 'studtest2@test.com') RETURNING stud_id;
         '''   
     conn = None
     stud_id = None
